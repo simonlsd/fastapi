@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from schemas import TodoCreate,TodoResponse
+from .schemas import TodoCreate,TodoResponse
 from .models import Todo
 from .database import SessionLocal
 

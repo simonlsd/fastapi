@@ -4,9 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = {extras = ["standard"], version = "*"}
 alembic = "*"
 sqlalchemy = "*"
+fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 
